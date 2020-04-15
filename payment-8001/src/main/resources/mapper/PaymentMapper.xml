@@ -7,6 +7,6 @@
     </insert>
 
     <select id="getPaymentById" resultType="com.jkgl.ek.entities.Payment">
-          select * from payment
+          select * from payment where id = #{id}
     </select>
 </mapper>

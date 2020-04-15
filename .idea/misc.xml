@@ -10,6 +10,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eureka-7002/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/order-80/src/main/java/com/jkgl/order/OrderMain80.java" />

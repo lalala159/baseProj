@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>order-80</artifactId>
+    <artifactId>payment-8002</artifactId>
 
     <dependencies>
         <dependency>
@@ -67,5 +67,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>

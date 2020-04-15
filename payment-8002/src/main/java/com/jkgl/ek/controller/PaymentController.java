@@ -4,15 +4,12 @@ import com.jkgl.ek.entities.CommonResult;
 import com.jkgl.ek.entities.Payment;
 import com.jkgl.ek.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.logging.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author hecheng
