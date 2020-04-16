@@ -41,3 +41,9 @@ eureka:
     lease-renewal-interval-in-seconds: 1
     服务等待时间、超过将剔除
     lease-expiration-duration-in-seconds: 2
+#27end
+
+#2020/04/16
+-----------Nacos(96-99)
+Nacos服务注册---无需搭建环境只需下载安装包启动---在本地项目配置nacos地址即可
+
