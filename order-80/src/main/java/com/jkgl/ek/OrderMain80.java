@@ -1,4 +1,4 @@
-package com.jkgl.order;
+package com.jkgl.ek;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
