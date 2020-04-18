@@ -47,3 +47,10 @@ eureka:
 -----------Nacos(96-99)
 Nacos服务注册---无需搭建环境只需下载安装包启动---在本地项目配置nacos地址即可
 
+#2020/04/17-18
+-----------Ribbon(36-40)
+默认轮询；自定义配置负载策略,在主启动类之外新建负载策略类,最后在主启动类添加
+@RibbonClient(name = "PAYMENT-SERVICE", configuration = RibbonRuleConfig.class)
+注解；
+#2020/04/19(49)
+
