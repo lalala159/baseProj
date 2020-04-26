@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: ek-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource #当前数据源类型
+    driver-class-name: org.gjt.mm.mysql.Driver  #mysql驱动包
+    url: jdbc:mysql://localhost:3306/jkgl?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+eureka:
+  client:
+    #false表示不向注册中心注册自己
+    register-with-eureka: false
+    service-url:
+      #设置与eureka server交互的地址查询服务和注册服务都需要依赖这个地址
+      defaultZone: http://eruka7003.com:7003/eureka/,http://eruka7002.com:7002/eureka/,http://eruka7001.com:7001/eureka/

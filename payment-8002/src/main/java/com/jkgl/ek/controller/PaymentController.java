@@ -34,8 +34,8 @@ public class PaymentController {
         return new CommonResult(200, "成功,serverPort:"+serverPort, result);
     }
 
-    @GetMapping(value = "get")
-    public CommonResult get(long id){
+    @GetMapping(value = "get/{id}")
+    public CommonResult get(@PathVariable("id")long id){
        Payment payment = paymentService.getPaymentById(id);
         return new CommonResult(200, "成功,serverPort:"+serverPort, payment);
     }
